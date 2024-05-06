@@ -1,0 +1,61 @@
+body{
+    font-family: 'Cormorant', serif;
+}
+
+.navbar{
+    margin-left: 36px;
+}
+
+h1{
+    display: inline-block;
+    font-weight: 300;
+    margin:0 32px 0 0;
+}
+
+.links ul{
+    padding:0;
+}
+
+.links{
+    display: inline-block;
+}
+
+.links li{
+    display: inline-block;
+}
+
+.links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 0 8px;
+}
+
+a.active{
+    padding-bottom: 3px;
+    border-bottom: 1px solid black;p
+}
+
+.gallery{
+ margin:16px 16px 0 16px;
+}
+
+.card{
+    width: 49.75%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding:20px;
+}
+
+.card h2{
+   
+    display: inline-block;
+    margin: 8px 0;
+    font-weight: 300;
+}
+
+.card img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
